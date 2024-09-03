@@ -4,7 +4,7 @@ Overview: -
     The Amazon Clone project aims to replicate the core features of the well-known e-commerce platform, Amazon. This project provides a user-friendly interface for browsing products, managing a shopping cart, and placing orders, offering a comprehensive shopping experience similar to the original site.
 
 Features: - 
-
+ 
   - Product Browsing: Users can view a wide range of products, each with detailed information. The product listings are dynamically loaded from the backend.
     
   - Search Functionality: Users can search for products using keywords. The search results are displayed in real-time, allowing for a seamless shopping experience.
