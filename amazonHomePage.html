@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon Clone</title>
+
+        <!--For Responsive Design-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Loading CSS Files-->
+        <link rel="stylesheet" href="Styles/Shared/header-section.css">
+        <link rel="stylesheet" href="Styles/pages/amazon-body.css">
+        <link rel="stylesheet" href="Styles/Shared/general.css">
+    </head>
+    <body>
+        
+        <div class="header-section">
+
+            <div class="header-left-section">
+
+                <a href="amazonHomePage.html" class="header-link-section head-link">
+
+                    <img src="Images/amazon-logo-white.png" class="amazon-logo">
+                    <img src="Images/amazon-mobile-logo-white.png" class="amazon-mobile-logo">
+                </a>
+
+            </div>
+
+            <div class="header-middle-section">
+
+                <input type="text" class="textbox" placeholder="Search!">
+                <button class="search-button">
+                    <img src="Images/icons/search-icon.png" class="search-icon" >
+                </button>
+
+            </div>
+
+            <div class="header-right-section">
+                <a class="text-section head-link" href="orders.html">
+                  <span class="return-text">Returns</span>
+                  <span class="order-text">& Orders</span>
+                </a>
+        
+                <a class="cart-section head-link js-cart-section" href="amazonCart.html">
+                  <img class="cart-icon" src="images/icons/cart-icon.png">
+                  <div class="cart-quantity js-cart-quantity"></div>
+                  <div class="cart-text">Cart</div>
+                </a>
+              </div>
+        </div>
+
+
+
+        <div class="amazon-body">
+
+
+            <div class="products-grid js-products-grid">
+
+
+
+
+                
+                <div class="product-container ">
+                        <!--Generated all this html through JavaScript-->
+                </div>
+
+                <div class="product-container ">
+                
+                    
+
+                </div>
+
+                <div class="product-container ">
+                
+                    
+                </div>
+
+            </div>
+        </div>
+        
+        
+        <script type = "module" src="Scripts/amazon.js">  </script> <!--modules only work with live server-->
+
+    </body>
+
+    <script type="module" src="Scripts/searchBarOperationHome.js" defer></script>
+
+
+</html>

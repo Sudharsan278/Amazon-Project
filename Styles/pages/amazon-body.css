@@ -1,0 +1,223 @@
+.amazon-body
+{
+    margin-top: 80px;
+}
+
+.products-grid
+{
+    display: grid;
+
+    grid-template-columns: repeat(8,1fr);
+}
+
+
+
+@media(max-width:2000px)
+{
+    .products-grid
+    {
+        grid-template-columns: repeat(7,1fr);
+    }
+}
+
+@media(max-width:1600px)
+{
+    .products-grid
+    {
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+
+@media(max-width:1300px)
+{
+    .products-grid
+    {
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+
+@media(max-width:1000px)
+{
+    .products-grid
+    {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media(max-width:800px)
+{
+    .products-grid
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(max-width:575px)
+{
+    .products-grid
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:450px)
+{
+    .products-grid
+    {
+        grid-template-columns:1fr;
+    }
+}
+
+.product-container
+{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left:25px ;
+    padding-right: 25px;
+
+    border-right: 1px solid rgb(231,231,231);
+    border-bottom: 1px solid rgb(231,231,231);
+    
+}
+
+.product-image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.product-image
+{
+    /*Since the images overflow their containers by default it is good to set 
+    max height and width to 100% to prevent the overflow*/
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.product-name-container
+{
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.product-rating-container
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.product-ratings
+{
+    width: 100px;
+    margin-right: 6px; 
+}
+
+.product-rating-count
+{
+    color: rgb(1,124,182);
+    cursor: pointer;
+}
+
+.product-price
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.no-of-products-selected
+{
+    margin-bottom: 20px;
+}
+
+.space-provider
+{
+    flex: 1;
+}
+
+.added-text
+{
+    color: rgb(6, 125, 98);
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 5px;
+
+    /*opacity:0;
+    transition: all 1s;
+*/}
+
+.added-text img
+{   
+    height: 20px;
+    margin-right: 5px;
+}
+
+.add-to-cart
+{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 100%;
+    padding: 8px;
+}
+
+
+.color-section
+{
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 8px;
+}
+.color-button
+{
+    border:1px solid rgb(99, 98, 98);
+    border-radius: 7px;
+    margin-right: 5px;
+    margin-bottom : 10px;
+}
+
+.color-options :hover
+{
+    cursor: pointer;
+}
+
+.color-options :focus
+{
+    border: 2px solid orangered;
+
+}
+
+.size
+{
+    margin-bottom: 10px;
+    font-weight : 550;
+}
+
+.size-button
+{
+    border: 1px solid rgb(99,98,98);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.size-button:focus
+{
+    border: 2px solid orangered;
+}

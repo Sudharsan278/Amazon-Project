@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Orders</title>
+
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="Styles/Shared/general.css">
+        <link rel="stylesheet" href="Styles/Shared/header-section.css">
+        <link rel="stylesheet" href="Styles/pages/orders.css">
+    </head>
+
+    <body>
+        <div class="header-section">
+
+            <div class="header-left-section">
+
+                <a href="amazonHomePage.html" class="header-link-section head-link">
+
+                    <img src="Images/amazon-logo-white.png" class="amazon-logo">
+                    <img src="Images/amazon-mobile-logo-white.png" class="amazon-mobile-logo">
+                </a>
+
+            </div>
+
+            <div class="header-middle-section">
+
+                <input type="text" class="textbox" placeholder="Search!">
+                <button class="search-button">
+                    <img src="Images/icons/search-icon.png" class="search-icon" >
+                </button>
+
+            </div>
+
+            <div class="header-right-section">
+                <a class="text-section head-link" href="orders.html">
+                  <span class="return-text">Returns</span>
+                  <span class="order-text">& Orders</span>
+                </a>
+        
+                <a class="cart-section head-link" href="amazonCart.html">
+                  <img class="cart-icon" src="images/icons/cart-icon.png">
+                  <div class="cart-quantity js-cart-quantity"></div>
+                  <div class="cart-text">Cart</div>
+                </a>
+              </div>
+        </div>
+        
+
+        <div class="orders-body">
+
+            <div class="orders-title">
+                Your Orders
+            </div>
+
+            <div class="table-grid js-orders-table">
+
+               <!-- <div class="order-container">
+
+                    <div class="order-header">
+
+                        <div class="order-header-left-section">
+
+                            <div class="order-date">
+                                <div class="order-header-label">Order Placed</div>
+                                <div class="order-header-date">August 12</div>
+                            </div>
+
+                            <div class="order-total">
+
+                                <div class="order-header-label">Total</div>
+                                <div>$35.06</div>
+
+                            </div>
+                        </div>
+
+                        <div class="order-header-right-section">
+                            <div class="order-header-label">Order ID</div>
+                            <div>27cba69d-4c3d-4098-b42d-ac7fa62b7664</div>
+                        </div>
+                    </div>
+
+                    <div class="order-details-grid">
+                        
+                        <div class="product-image-container">
+                            <img src="Images/products/athletic-cotton-socks-6-pairs.jpg" class="product-image">
+                        </div>
+
+                        <div class="product-details-container">
+                            <div class="product-name">
+                                Black and Gray Athletic Cotton Socks - 6 Pairs
+                            </div>
+                            <div class="product-arriving-date">
+                                Arriving on: August 15
+                            </div>
+                            <div class="product-quantity">
+                                Quantity : 1
+                            </div>
+                            <div class="buy-it-again-button-container">
+                                <button class="buy-it-again-button button-primary">
+                                    <img src="Images/icons/buy-again.png" class="buy-it-again-icon">
+                                    Buy it Again
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <a href="tracking.html">
+                                <button class="track-package-button button-secondary">
+                                    Track Package
+                                </button>
+                            </a>
+                        </div>
+
+
+                        <div class="product-image-container">
+                            <img src="Images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" class="product-image">
+                        </div>
+
+                        <div class="product-details-container">
+                            <div class="product-name">
+                                Adults Plain Cotton T-Shirt - 2 Pack
+                            </div>
+                            <div class="product-arriving-date">
+                                Arriving on: August 19
+                            </div>
+                            <div class="product-quantity">
+                                Quantity : 2
+                            </div>
+                            <div class="buy-it-again-button-container">
+                                <button class="buy-it-again-button button-primary">
+                                    <img src="Images/icons/buy-again.png" class="buy-it-again-icon">
+                                    Buy it Again
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <a href="tracking.html">
+                                <button class="track-package-button button-secondary">
+                                    Track Package
+                                </button>
+                            </a>
+                        </div>
+
+                
+
+                    </div>
+
+                </div>
+
+                <div class="order-container">
+
+                    <div class="order-header">
+
+                        <div class="order-header-left-section">
+
+                            <div class="order-date">
+                                <div class="order-header-label">Order Placed</div>
+                                <div class="order-header-date">June 10</div>
+                            </div>
+
+                            <div class="order-total">
+
+                                <div class="order-header-label">Total</div>
+                                <div>$41.90</div>
+
+                            </div>
+                        </div>
+
+                        <div class="order-header-right-section">
+                            <div class="order-header-label">Order ID</div>
+                            <div>b6b6c212-d30e-4d4a-805d-90b52ce6b37d</div>
+                        </div>
+                    </div>
+
+                    <div class="order-details-grid">
+                        
+                        <div class="product-image-container">
+                            <img src="Images/products/intermediate-composite-basketball.jpg" class="product-image">
+                        </div>
+
+                        <div class="product-details-container">
+                            <div class="product-name">
+                                Intermediate Composite Basketball
+                            </div>
+                            <div class="product-arriving-date">
+                                Arriving on: June 17
+                            </div>
+                            <div class="product-quantity">
+                                Quantity : 2
+                            </div>
+                            <div class="buy-it-again-button-container">
+                                <button class="buy-it-again-button button-primary">
+                                    <img src="Images/icons/buy-again.png" class="buy-it-again-icon">
+                                    Buy it Again
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product-actions">
+                            <a href="tracking.html?orderId=123&productId=456">
+                                <button class="track-package-button button-secondary">
+                                    Track Package
+                                </button>
+                            </a>
+                        </div>
+
+            </div>-->
+
+        </div>
+
+        <script type="module" src="./data/orders.js"></script>
+        
+    </body>
+
+</html>
