@@ -1,5 +1,5 @@
 Amazon Clone Project:
-
+ 
 Overview: -
     The Amazon Clone project aims to replicate the core features of the well-known e-commerce platform, Amazon. This project provides a user-friendly interface for browsing products, managing a shopping cart, and placing orders, offering a comprehensive shopping experience similar to the original site.
 
